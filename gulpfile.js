@@ -34,9 +34,8 @@ if (env === 'gostaresh') {
     commentsSass = false;
 }
 
-
+// Har chizi ro ba Bower ezafe kardid be manabe ham ezafe konid
 manabeCoffee = ['ajza/coffee/**/*.coffee'];
-// Har chizi ro ba Bower ezafe kardid be manabeJs ham ezafe konid
 manabeJs = ['ajza/scripts/**/*.js'];
 manabeSass = ['ajza/sass/style.scss'];
 manabeHtml = ['sakht/gostaresh/**/*.html'];
@@ -87,7 +86,7 @@ gulp.task('jade', function() {
 });
 
 gulp.task('tasvir', function() {
-    gulp.src('sakht/gostaresh/tasavir/**/*.*')
+    gulp.src('ajza/tasavir/**/*.*')
         .pipe(gulpif(env === 'tolid', imagemin({
             progressive: true,
             svgoPlugins: [{

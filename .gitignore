@@ -4,3 +4,4 @@ node_modules
 .sass-cache
 npm-debug.log
 ajza/anasor/**/*.*
+!ajza/anasor/manoBekhon.md
