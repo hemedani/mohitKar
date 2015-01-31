@@ -1,0 +1,15 @@
+{
+  "name": "mohitKar",
+  "version": "1.0.0",
+  "description": "Mohit Tosee WEB",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemedani/mohitKar.git"
+  },
+  "author": "Seyyed AmirMasoud Hosseini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemedani/mohitKar/issues"
+  },
+  "homepage": "https://github.com/hemedani/mohitKar"
+}
